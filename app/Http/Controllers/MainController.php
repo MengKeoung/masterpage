@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function index() {
-        return view('index'); // Refers to resources/views/controller.blade.php
-    }
+    // public function index() {
+    //     return view('index'); // Refers to resources/views/controller.blade.php
+    // }
     public function product() {
         return view('others/product'); // Refers to resources/views/controller.blade.php
     }
@@ -17,6 +17,9 @@ class MainController extends Controller
     }
     public function contact_us() {
         return view('others/contact-us'); // Refers to resources/views/controller.blade.php
+    }
+    public function index() {
+        return view('pages/index'); // Refers to resources/views/controller.blade.php
     }
 }
 
