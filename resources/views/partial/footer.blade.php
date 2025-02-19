@@ -77,8 +77,7 @@
                         <li class="nav-membership"><span class="sep"></span><a
                                 href="https://ghost.estudiopatagon.com/zento/membership/">Membership</a></li>
                         <li class="nav-author-page"><span class="sep"></span><a
-                                href="https://ghost.estudiopatagon.com/zento/author/jonathan-doe/">Author
-                                Page</a></li>
+                                href="{{ route('article') }}">Articles</a></li>
                         <li class="nav-sign-in"><span class="sep"></span><a
                                 href="https://ghost.estudiopatagon.com/zento/signin/">Sign In</a></li>
                         <li class="nav-subscribe-sign-up"><span class="sep"></span><a

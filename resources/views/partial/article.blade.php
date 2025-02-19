@@ -1,3 +1,4 @@
+    
      <!-- start: .content-wrapper -->
      <div class="content-wrapper">
     
@@ -237,7 +238,6 @@
                                                 </div>
                                             </div>
                                             <div class="clear"></div>
-
                                         </article>
                                     </div>
                                 </div>

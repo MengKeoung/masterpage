@@ -4,7 +4,7 @@
             <div class="text">
 
                 <!--kg-card-begin: html-->
-                <h1 class="title ularge fw-medium">Hi, I'm <span class="highlight">Jonathan Doe</span> 👋
+                <h1 class="title ularge fw-medium">Hi, I'm <span class="highlight">{{ Auth::user()->name }}</span> 👋
                 </h1>
                 <!--kg-card-end: html-->
                 <p>I'm a&nbsp;<strong>design technologist</strong>&nbsp;in Atlanta. I like working on the

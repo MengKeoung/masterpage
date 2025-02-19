@@ -69,7 +69,7 @@
 
 
 <body class="full-screen-preview">
-    <div class="preview__header">
+    {{-- <div class="preview__header">
         <div class="preview__envato-logo">
             <a class="header-envato_market"
                 href="https://themeforest.net/item/zento-modern-lightweight-blog-for-ghost/50836414">Envato Market</a>
@@ -82,7 +82,7 @@
                     now</a>
             </div>
         </div>
-    </div>
+    </div> --}}
     
 
     @yield('content')	

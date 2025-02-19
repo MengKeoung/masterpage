@@ -24,7 +24,16 @@
                             height="60" decoding="async"></a></div>
 
                 <div class="account underline-effect hide-on-mobile hide-on-tablet hide-on-desktop-sm">
-                    <a href="https://ghost.estudiopatagon.com/zento/signin" class="link-button epcl-login">Login</a>
+                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                          document.getElementById('logout-form').submit();">
+                                 {{ __('Logout') }}
+                             </a>
+                             
+                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                 @csrf
+                             </form>  
+                    
                     <a href="https://ghost.estudiopatagon.com/zento/subscribe" class="epcl-button">Subscribe</a>
                 </div>
 
